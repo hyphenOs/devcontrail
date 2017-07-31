@@ -1,10 +1,9 @@
-[submodule "vrouter"]
-	path = vrouter
-	url = https://github.com/Juniper/contrail-vrouter
-	ignore = dirty
-[submodule "tools/sandesh"]
-	path = tools/sandesh
-	url = git@github.com:Juniper/contrail-sandesh
 [submodule "controller"]
 	path = controller
-	url = https://github.com/Juniper/contrail-controller
+	url = https://github.com/hyphenOs/contrail-controller
+[submodule "vrouter"]
+	path = vrouter
+	url = https://github.com/hyphenOs/contrail-vrouter
+[submodule "tools/sandesh"]
+	path = tools/sandesh
+	url = https://github.com/hyphenOs/contrail-sandesh
