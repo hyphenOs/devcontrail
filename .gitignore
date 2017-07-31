@@ -2,3 +2,5 @@ third_party/*/*
 ltmain.sh
 *pyc
 build/
+config.log
+.scons*.dblite
