@@ -211,6 +211,7 @@
   </package>
   <package>
     <name>Pugi XML 1.2</name>
+    <short_name>pugixml</short_name>
     <url>https://github.com/zeux/pugixml/releases/download/v1.2/pugixml-1.2.tar.gz</url>
     <unpack-directory>pugixml</unpack-directory>
     <format>tgz</format>
@@ -218,6 +219,7 @@
   </package>
   <package>
     <name>Apache Thrift 0.8</name>
+    <short_name>thrift-0.8.0</short_name>
     <url>http://archive.apache.org/dist/thrift/0.8.0/thrift-0.8.0.tar.gz</url>
     <patches>
       <patch strip="2">thrift_patch1.diff</patch>
@@ -240,6 +242,7 @@
   </package>
   <package>
     <name>Joyent HTTP parser</name>
+    <short_name>http-parser-2.1</short_name>
     <url>https://github.com/joyent/http-parser/archive/v2.1.tar.gz</url>
     <local-filename>http-parser-v2.1.tar.gz</local-filename>
     <format>tgz</format>
@@ -317,6 +320,7 @@
   </package>
   <package>
     <name>JSON parser/generator for C++</name>
+    <short_name>rapidjson</short_name>
     <url>https://github.com/Juniper/contrail-third-party-cache/raw/master/googlecode/rapidjson-v1.1.0.zip</url>
     <format>zip</format>
     <md5>4f82cc9f41b7d39afeeec10ff8b581b9</md5>

@@ -7,3 +7,7 @@ libxml2-dev
 autoconf
 automake
 libtool-bin
+python-setuptools
+libssl-dev
+liblog4cplus-dev
+libcurl4-openssl-dev

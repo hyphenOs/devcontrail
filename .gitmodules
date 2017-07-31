@@ -7,3 +7,6 @@
 [submodule "tools/sandesh"]
 	path = tools/sandesh
 	url = https://github.com/hyphenOs/contrail-sandesh
+[submodule "tools/generateds"]
+	path = tools/generateds
+	url = https://github.com/hyphenOs/contrail-generateDS
