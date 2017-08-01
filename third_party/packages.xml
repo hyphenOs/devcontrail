@@ -250,6 +250,7 @@
   </package>
   <package>
     <name>Simple AMQP Client</name>
+    <short_name>SimpleAmqpClient</short_name>
     <url>https://github.com/alanxz/SimpleAmqpClient/archive/v2.4.0.tar.gz</url>
     <local-filename>SimpleAmqpClient-2.4.0.tar.gz</local-filename>
     <format>tgz</format>
@@ -258,12 +259,23 @@
   </package>
   <package>
     <name>RabbitMQ C</name>
+    <short_name>rabbitmq-c</short_name>
     <url>https://github.com/alanxz/rabbitmq-c/releases/download/v0.8.0/rabbitmq-c-0.8.0.tar.gz</url>
     <local-filename>rabbitmq-c-0.8.0.tar.gz</local-filename>
     <rename>rabbitmq-c</rename>
     <format>tgz</format>
     <md5>c15dbcd2dbb8e254c1de0494c1bb8c91</md5>
   </package>
+  <package>
+    <name>DataStax Cassandra CPP Driver 2.2.2</name>
+    <short_name>cassandra-cpp-driver-2.2.2</short_name>
+    <url>https://github.com/datastax/cpp-driver/archive/2.2.2.tar.gz</url>
+    <local-filename>cassandra-cpp-driver-2.2.2.tar.gz</local-filename>
+    <rename>cassandra-cpp-driver</rename>
+    <format>tgz</format>
+    <md5>dd91b7f3cad4730ea144a0e21ce60709</md5>
+  </package>
+
   <package>
     <name>Bottle Python Web Framework</name>
     <url>https://pypi.python.org/packages/source/b/bottle/bottle-0.11.6.tar.gz</url>
@@ -327,6 +339,7 @@
   </package>
   <package>
     <name>ISC Bind</name>
+    <short_name>bind-9.10</short_name>
     <url>http://www.mirrorservice.org/sites/ftp.isc.org/isc/bind9/9.10.4-P2/bind-9.10.4-P2.tar.gz</url>
     <format>tgz</format>
     <md5>50163d229020c48929c84bec5b0068d7</md5>
