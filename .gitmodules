@@ -1,6 +1,7 @@
 [submodule "controller"]
 	path = controller
 	url = https://github.com/hyphenOs/contrail-controller
+	branch = devcontrail
 [submodule "vrouter"]
 	path = vrouter
 	url = https://github.com/hyphenOs/contrail-vrouter

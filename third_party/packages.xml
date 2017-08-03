@@ -277,6 +277,16 @@
   </package>
 
   <package>
+    <name> Librdkafka C/C++ library</name>
+    <short_name>librdkafka-0.11.0</short_name>
+    <url>https://github.com/edenhill/librdkafka/archive/v0.11.0.tar.gz</url>
+    <local-filename>librdkafka-0.11.0.tar.gz</local-filename>
+    <rename>librdkafka</rename>
+    <format>tgz</format>
+    <md5>68f4712491a92423c9722be9054678d8</md5>
+  </package>
+
+  <package>
     <name>Bottle Python Web Framework</name>
     <url>https://pypi.python.org/packages/source/b/bottle/bottle-0.11.6.tar.gz</url>
     <format>tgz</format>
@@ -387,6 +397,7 @@
   </package>
   <package>
     <name>Open vSwitch version 2.3.0</name>
+    <short_name>openvswitch-2.3.0</short_name>
     <url>http://openvswitch.org/releases/openvswitch-2.3.0.tar.gz</url>
     <local-filename>openvswitch-2.3.0.tar.gz</local-filename>
     <format>tgz</format>

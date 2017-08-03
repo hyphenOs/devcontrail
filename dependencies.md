@@ -13,4 +13,4 @@ liblog4cplus-dev
 libcurl4-openssl-dev
 libuv1-dev
 libreadline-dev
-
+librdkafka-dev
