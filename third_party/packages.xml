@@ -80,6 +80,7 @@
   </package>
   <package>
     <name>Google C++ Testing Framework 1.6.0</name>
+    <short_name>gtest-1.6.0</short_name>
     <url>https://github.com/Juniper/contrail-third-party-cache/raw/master/googlecode/googletest-release-1.6.0.zip</url>
     <rename>gtest-1.6.0</rename>
     <patches>
@@ -151,6 +152,7 @@
   </package>
   <package>
     <name>Minimalistic C client for Redis v0.11</name>
+    <short_name>hiredis-0.11.0</short_name>
     <url>https://github.com/Juniper/contrail-third-party-cache/raw/master/hiredis/hiredis-0.11.0.tar.gz</url>
     <local-filename>hiredis-v0.11.0.tar.gz</local-filename>
     <format>tgz</format>
@@ -231,6 +233,7 @@
   </package>
   <package>
     <name>hiredis boostasio-adapter</name>
+    <short_name>hiredis-boost-asio</short_name>
     <url>https://github.com/Juniper/contrail-third-party-cache/raw/master/hiredis/hiredis-boostasio-adapter-master.zip</url>
     <local-filename>hiredis-master.zip</local-filename>
     <format>zip</format>
@@ -408,6 +411,7 @@
   </package>
   <package>
     <name>Go 1.8</name>
+    <short_name>go-1.8</short_name>
     <url>https://storage.googleapis.com/golang/go1.8.linux-amd64.tar.gz</url>
     <local-filename>go1.8.linux-amd64.tar.gz</local-filename>
     <format>tgz</format>
@@ -415,6 +419,7 @@
   </package>
   <package>
     <name>Cni Go Deps</name>
+    <short_name>go-cni-deps</short_name>
     <url>https://github.com/Juniper/contrail-third-party-cache/raw/master/cni/cni_go_deps.tar.gz</url>
     <format>tgz</format>
     <md5>823fcd824557fa0b6506e29d7591f76d</md5>

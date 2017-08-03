@@ -14,3 +14,6 @@ libcurl4-openssl-dev
 libuv1-dev
 libreadline-dev
 librdkafka-dev
+libgtest-dev
+google-mock
+libsasl2-dev
