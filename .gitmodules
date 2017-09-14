@@ -11,3 +11,12 @@
 [submodule "tools/generateds"]
 	path = tools/generateds
 	url = https://github.com/hyphenOs/contrail-generateDS
+[submodule "openstack/nova_contrail_vif"]
+	path = openstack/nova_contrail_vif
+	url = https://github.com/hyphenOs/contrail-nova-vif-driver
+[submodule "openstack/contrail-nova-extensions"]
+	path = openstack/contrail-nova-extensions
+	url = https://github.com/hyphenOs/contrail-nova-extensions
+[submodule "openstack/neutron_plugin"]
+	path = openstack/neutron_plugin
+	url = https://github.com/hyphenOs/contrail-neutron-plugin

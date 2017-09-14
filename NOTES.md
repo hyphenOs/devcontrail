@@ -35,3 +35,49 @@ List of issues faced and changes done to original approach, while trying to buil
 7. Fixed openvswitch `SConscript` to get `ln -sf` like beavior inside `controller/lib/openvswitch/SConscript`.
 
 
+
+Starting from Scratch
+
+1. First installed scons
+
+2. Then I was getting no such property CXXFile  - Installed flex bison
+
+3. setutools not found - `apt-get install python-pip`, installs setuptools as well.
+
+4. pip install lxml
+
+5. apt-get install libboost-dev
+
+6. apt-get install libtbb-dev
+
+7. apt-get install liblog4cplus-dev
+
+8. SimpleAmqpClient - Build
+	 1.k apt-get install cmake (SimpleAmqpClient requires this)
+   2. libboost-chrono-dev, libboost-system-dev
+   3.  doxygen
+   4. texlive-latex-base
+
+9. rabbitmq-c - Build
+   1. libssl-dev (also install libgnutls-dev)
+
+
+10. libcurl-openssl-dev
+
+11. sudo apt-get install libboost-filesystem-dev libboost-program-options-dev libboost-regex-dev
+
+
+12. Fixes for third-party
+    autoconf libtool libtool-bin
+
+13. libsasl2-dev
+
+14. libipfix-dev manually using dpkg -i (argh!)
+
+15. libboost-python-dev
+
+16 protobuf-c-compiler, libprotobuf-dev protobuf-compiler
+
+17. google-mock
+
+18. gcovr (for building with opt-level coverage)

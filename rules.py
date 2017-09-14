@@ -1126,7 +1126,8 @@ def SetupBuildEnvironment(conf):
     elif opt_level == 'coverage':
         env.Append(CCFLAGS = ['-O0', '--coverage'])
         env['TOP'] = '#build/coverage'
-        env.Append(LIBS = 'gcov')
+        env.Append(CCFLAGS = '-fprofile-generate')
+        env.Append(LINKFLAGS = '-fprofile-generate')
     elif opt_level == 'valgrind':
         env.Append(CCFLAGS = ['-O0', '-DDEBUG'])
         env['TOP'] = '#build/valgrind'
